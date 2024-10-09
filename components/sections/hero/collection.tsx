@@ -11,7 +11,7 @@ export default function Collection() {
   const [bigShowImg, setBigShowImg] = useState(bigShoe1);
 
   return (
-    <div className="relative flex-1 flex justify-center items-center min-h-screen bg-hero max-lg:py-40 bg-primary bg-cover bg-center">
+    <div className="relative flex-1 flex justify-center items-center min-h-screen bg-hero max-lg:py-40 bg-cover bg-center">
       <Image
         src={bigShowImg}
         alt="Shoe collection"
