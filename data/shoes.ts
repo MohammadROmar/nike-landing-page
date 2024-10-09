@@ -9,7 +9,7 @@ import {
   thumbnailShoe3,
 } from '@/assets/images';
 
-type Shoe = {
+export type Shoe = {
   thumbnail: any;
   bigShoe: StaticImageData;
 };
