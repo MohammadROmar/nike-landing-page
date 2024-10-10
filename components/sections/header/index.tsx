@@ -15,7 +15,7 @@ export default function Header() {
         </Link>
         <ul className="flex-1 flex justify-center items-center gap-16 max-lg:hidden">
           {headerLinks.map(({ label, href }) => (
-            <NavItem label={label} href={href} />
+            <NavItem key={label} label={label} href={href} />
           ))}
         </ul>
         <button className="lg:hidden">

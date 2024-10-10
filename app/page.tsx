@@ -5,12 +5,12 @@ import {
   SuperQuality,
   Services,
   SpecialOffer,
-  CustomReviews,
+  CustomerReviews,
   Subscribe,
   Footer,
 } from '@/components/sections';
 
-export default function HomePage() {
+export default function LandingPage() {
   return (
     <main className="relative">
       <Header />
@@ -19,7 +19,7 @@ export default function HomePage() {
       <SuperQuality />
       <Services />
       <SpecialOffer />
-      <CustomReviews />
+      <CustomerReviews />
       <Subscribe />
       <Footer />
     </main>

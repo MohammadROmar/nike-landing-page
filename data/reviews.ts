@@ -1,6 +1,6 @@
 import { customer1, customer2 } from '@/assets/images';
 
-type Review = {
+export type Review = {
   image: any;
   customerName: string;
   rating: number;
