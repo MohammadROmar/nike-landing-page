@@ -2,17 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
 }
 
 @layer components {
   .max-container {
-    max-width: 1440px;
-    margin: 0 auto;
+    @apply max-w-[1440px] mx-auto;
   }
 
   .input {

@@ -21,7 +21,7 @@ function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body
-        className={`${montserrat.variable} ${palanquin.variable} antialiased`}
+        className={`${montserrat.variable} ${palanquin.variable} antialiased selection:bg-coral-red selection:text-white`}
       >
         {children}
       </body>
