@@ -10,7 +10,7 @@ export default function SuperQuality() {
       className="padding flex justify-between items-center max-lg:flex-col gap-10 w-full max-container"
     >
       <div className="flex-1 flex flex-col">
-        <h2 className="mt-8 font-palanquin text-4xl capitalize lg:max-w-lg font-bold">
+        <h2 className="text-title mt-8 font-palanquin text-4xl capitalize lg:max-w-lg font-bold">
           We provide you <span className="text-coral-red">super quality</span>
           {' Shoes'}
         </h2>

@@ -19,7 +19,7 @@ function Card({ product }: { product: Product }) {
           {rating}
         </span>
       </p>
-      <h3 className="mt-2 text-2xl max-sm:text-lg leading-normal font-semibold font-palanquin">
+      <h3 className="text-title mt-2 text-2xl max-sm:text-lg leading-normal font-semibold font-palanquin">
         {name}
       </h3>
       <p className="mt-2 font-semibold text-coral-red text-2xl max-sm:text-base leading-normal font-montserrat">

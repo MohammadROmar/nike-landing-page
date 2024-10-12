@@ -1,15 +1,16 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
+import NavItem from './nav-item';
+import HamburgerMenuIcon from './hamburger';
+import ThemeSwitcher from '../theme/theme-switcher';
 import { headerLinks } from '@/data/links';
 import headerLogoIcon from '@/assets/images/header-logo.svg';
-import hamburgerIcon from '@/assets/icons/hamburger.svg';
-import NavItem from './nav-item';
 
 export default function Header() {
   return (
     <header className="padding-x py-8 absolute z-10 w-full">
-      <nav className="flex justify-between items-center .max-container">
+      <nav className="flex justify-between items-center max-container">
         <Link href="/">
           <Image src={headerLogoIcon} alt="Logo" priority />
         </Link>
@@ -18,13 +19,12 @@ export default function Header() {
             <NavItem key={label} label={label} href={href} />
           ))}
         </ul>
-        <button className="lg:hidden">
-          <Image
-            src={hamburgerIcon}
-            alt="Hamburger menu icon"
-            className="w-6 h-6 cursor-pointer"
-          />
-        </button>
+        <div className="lg:hidden">
+          <HamburgerMenuIcon />
+        </div>
+        <div className="w-8 h-8 max-lg:hidden">
+          <ThemeSwitcher />
+        </div>
       </nav>
     </header>
   );

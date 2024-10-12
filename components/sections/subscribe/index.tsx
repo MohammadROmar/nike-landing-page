@@ -6,7 +6,7 @@ export default function Subscribe() {
       id="contact-us"
       className="padding-x sm:py-32 py-16 max-container flex justify-between items-center max-lg:flex-col gap-10"
     >
-      <h3 className="text-4xl leading-[4.25rem] font-palanquin font-bold">
+      <h3 className="text-title text-4xl leading-[4.25rem] font-palanquin font-bold">
         Sign Up For <span className="text-coral-red">Updates </span> &
         Newsletter
       </h3>

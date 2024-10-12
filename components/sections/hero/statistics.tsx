@@ -5,7 +5,9 @@ export default function Statistics() {
     <ul className="flex gap-16 justify-start items-start flex-wrap w-full mt-20">
       {statistics.map(({ label, value }) => (
         <li key={label}>
-          <p className="text-4xl font-palanquin font-bold">{value}</p>
+          <p className="text-4xl font-palanquin font-bold text-title">
+            {value}
+          </p>
           <p className="leading-7 font-montserrat text-slate-gray">{label}</p>
         </li>
       ))}

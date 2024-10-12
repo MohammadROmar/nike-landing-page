@@ -10,7 +10,7 @@ export default function NavItem({ label, href }: NavItemProps) {
     <li key={label}>
       <Link
         href={href}
-        className="font-montserrat leading-normal text-base text-slate-gray"
+        className="font-montserrat leading-normal text-base text-slate-gray text-black"
       >
         {label}
       </Link>

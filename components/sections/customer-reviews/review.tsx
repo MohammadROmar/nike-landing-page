@@ -14,12 +14,16 @@ function ReviewCard({ review }: { review: Review }) {
         sizes="7.5rem"
         className="rounded-full object-cover w-[7.5rem] h-[7.5rem]"
       />
-      <p className="info-text text-center mt-6 max-w-sm">{feedback}</p>
+      <p className="info-text text-center mt-6 max-w-sm dark:text-[#6d6d6d]">
+        {feedback}
+      </p>
       <div className="mt-3 flex items-center gap-2">
         <Image src={star} alt="Star icon" />
         <p className="font-montserrat text-coral-red text-xl">{rating}</p>
       </div>
-      <h3 className="mt-1 font-palanquin text-3xl font-bold">{customerName}</h3>
+      <h3 className="mt-1 font-palanquin text-3xl font-bold text-black">
+        {customerName}
+      </h3>
     </li>
   );
 }

@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
+  darkMode: 'class',
   content: ['./app/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   theme: {
     fontSize: {
@@ -20,9 +21,9 @@ const config: Config = {
         montserrat: 'var(--font-montserrat)',
       },
       colors: {
-        primary: '#ECEEFF',
+        title: 'rgba(var(--text-title))',
         'coral-red': '#FF6452',
-        'slate-gray': '#6D6D6D',
+        'slate-gray': 'rgba(var(--text-slate-gray))',
         'pale-blue': '#F5F6FF',
         'white-400': 'rgba(255, 255, 255, 0.80)',
       },

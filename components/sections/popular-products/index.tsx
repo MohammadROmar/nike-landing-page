@@ -4,7 +4,7 @@ import { products } from '@/data/products';
 export default function PopularProducts() {
   return (
     <section id="products" className="padding max-container">
-      <h2 className="text-4xl font-palanquin font-bold capitalize">
+      <h2 className="text-title text-4xl font-palanquin font-bold capitalize">
         our <span className="text-coral-red">popular</span> products
       </h2>
       <p className="font-montserrat text-slate-gray lg:max-w-lg text-lg leading-8 mt-7 mb-14">

@@ -11,8 +11,8 @@ export default function Hero() {
           <p className="text-xl font-montserrat text-coral-red">
             Our Summer Collections
           </p>
-          <h1 className="mt-8 font-palanquin text-8xl max-sm:text-[4.5rem] max-sm:leading-[5.125rem] relative z-20 font-bold">
-            <span className="xl:bg-white xl:whitespace-nowrap z-10 pr-10">
+          <h1 className="text-title mt-8 font-palanquin text-8xl max-sm:text-[4.5rem] max-sm:leading-[5.125rem] xl:relative xl:z-10 font-bold">
+            <span className="xl:bg-white dark:xl:bg-[#333] xl:whitespace-nowrap z-10 pr-10 transition-[background-color] duration-500">
               The New Arrival
             </span>
             <br />

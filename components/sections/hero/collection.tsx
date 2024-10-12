@@ -15,10 +15,10 @@ export default function Collection() {
       <Image
         src={bigShowImg}
         alt="Shoe collection"
-        className="w-[610px] h-[500px] object-contain relative z-10"
+        className="object-contain"
       />
 
-      <ul className="flex sm:gap-6 gap-4 absolute -bottom-[5%] sm:left-[10%] max-sm:px-6">
+      <ul className="flex sm:gap-6 gap-4 absolute z-10 -bottom-[5%] sm:left-[10%] max-sm:px-6">
         {shoes.map((shoe, i) => (
           <ShoeCard
             key={i}

@@ -1,30 +1,18 @@
+import type { PropsWithChildren } from 'react';
 import type { Metadata } from 'next';
-import localFont from 'next/font/local';
 
+import Body from '@/components/theme/body';
 import './globals.css';
-
-const montserrat = localFont({
-  src: '../assets/fonts/Montserrat.ttf',
-  variable: '--font-montserrat',
-});
-const palanquin = localFont({
-  src: '../assets/fonts/Palanquin.ttf',
-  variable: '--font-palanquin',
-});
 
 export const metadata: Metadata = {
   title: 'Nike',
   description: 'Nike Landing Page',
 };
 
-function RootLayout({ children }: { children: React.ReactNode }) {
+function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html lang="en">
-      <body
-        className={`${montserrat.variable} ${palanquin.variable} antialiased selection:bg-coral-red selection:text-white`}
-      >
-        {children}
-      </body>
+    <html lang="en" suppressHydrationWarning>
+      <Body>{children}</Body>
     </html>
   );
 }

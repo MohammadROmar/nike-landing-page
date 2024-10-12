@@ -4,10 +4,10 @@ import { reviews } from '@/data/reviews';
 export default function CustomerReviews() {
   return (
     <section className="padding bg-pale-blue max-container">
-      <h3 className="font-palanquin text-center text-4xl font-bold">
-        What Our <span className="text-coral-red ">Customers</span> Say?
+      <h3 className="font-palanquin text-center text-4xl font-bold text-black">
+        What Our <span className="text-coral-red">Customers</span> Say?
       </h3>
-      <p className="info-text m-auto mt-4 max-w-lg text-center">
+      <p className="info-text m-auto mt-4 max-w-lg text-center dark:text-[#6d6d6d]">
         Hear genuine stories from our satesfied customers about thier
         expectional experiences with us.
       </p>

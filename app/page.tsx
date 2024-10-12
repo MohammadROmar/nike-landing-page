@@ -1,5 +1,5 @@
+import Header from '@/components/header';
 import {
-  Header,
   Hero,
   PopularProducts,
   SuperQuality,
@@ -7,8 +7,8 @@ import {
   SpecialOffer,
   CustomerReviews,
   Subscribe,
-  Footer,
 } from '@/components/sections';
+import Footer from '@/components/footer';
 
 export default function LandingPage() {
   return (
