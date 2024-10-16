@@ -37,6 +37,6 @@ export default function Sidebar() {
         <ThemeSwitcher />
       </div>
     </motion.aside>,
-    document.getElementById('body')!
+    document.body
   );
 }

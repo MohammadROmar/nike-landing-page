@@ -7,10 +7,8 @@ function Card({ product }: { product: Product }) {
   const { image, rating, name, price } = product;
 
   return (
-    <li className="flex flex-col w-full">
-      <div className="relative">
-        <Image src={image} alt={name} />
-      </div>
+    <li>
+      <Image src={`/images/${image}`} alt={name} width={280} height={280} />
       <p className="flex items-center mt-4 gap-2">
         <span>
           <Image src={star} alt="Star icon" />

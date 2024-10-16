@@ -1,7 +1,9 @@
 import Card from './card';
-import { products } from '@/data/products';
+import { getProducts } from '@/init-db';
 
 export default function PopularProducts() {
+  const products = getProducts();
+
   return (
     <section id="products" className="padding max-container">
       <h2 className="text-title text-4xl font-palanquin font-bold capitalize">

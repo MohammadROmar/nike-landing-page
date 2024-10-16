@@ -20,7 +20,6 @@ export default function Body({ children }: PropsWithChildren) {
 
   return (
     <body
-      id="body"
       className={`${montserrat.variable} ${
         palanquin.variable
       } antialiased selection:bg-coral-red selection:text-white dark:bg-[#333] bg-white overflow-x-hidden ${
