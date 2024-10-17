@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/better-sqlite3": "^7.6.11",
     "better-sqlite3": "^11.3.0",
     "framer-motion": "^11.11.7",
     "hamburger-react": "^2.5.1",

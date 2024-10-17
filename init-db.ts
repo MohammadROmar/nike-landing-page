@@ -58,7 +58,7 @@ const insertDataQuery = db.prepare(
 export function getProducts(): Product[] {
   const query = db.prepare(sql`SELECT * FROM products`.text).all();
 
-  return query;
+  return query as Product[];
 }
 
 function init() {
