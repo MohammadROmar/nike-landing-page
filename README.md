@@ -15,3 +15,7 @@ To run this app you must have [Node.js & npm](https://nodejs.org/en) installed o
 
   npm run dev
 ```
+
+---
+
+To view a live version, click [here](https://nike-peach-ten.vercel.app/)

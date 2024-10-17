@@ -12,6 +12,7 @@ export default function Subscribe() {
       </h3>
       <div className="lg:min-w-[40%] w-full flex items-center max-sm:flex-col gap-5 p-2.5 sm:border sm:border-slate-gray rounded-full">
         <input
+          id="newsletter"
           type="email"
           placeholder="subscribe@nike.com"
           className="input"

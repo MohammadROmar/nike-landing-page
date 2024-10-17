@@ -6,7 +6,8 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Nike',
-  description: 'Nike Landing Page',
+  description:
+    'Discover stylish Nike arrivals, quality comfort, and innovation for your active life.',
 };
 
 function RootLayout({ children }: PropsWithChildren) {
